@@ -20,9 +20,19 @@ Large collectors with investment capital with the passion of wanting to expand t
 * Foursquare API [1]
 * Geopy Geocoders [2]
 
-#### 2.2 Why these datasources?
+#### 2.2 Why these data sources?
 
-By leveraging the API from Foursquare a search for "Comic's and Games" will return results based on a set size and amount to be returned.  Of course a location is also needed to help narrow the search.  This is where Geopy comes in.  By combining Geopy with a city and state it will return a location within the form of longitude and latitude.  With this location data a narrowed search will then be performed on the "Comic's and Games" search string within the Foursquare API.  With that location data we can then leverage Foursquares API to return important information about the surrounding venues.  Potentially leading to insights to help predict what would be 
+By leveraging the API from Foursquare a search for "Comic's and Games" will return results based on a set size and amount to be returned.  Of course, a location is also needed to help narrow the search.  This is where Geopy comes in.  By combining Geopy with a city and state it will return a location within the form of longitude and latitude.  With this location data a narrowed search will then be performed on the "Comic's and Games" search string within the Foursquare API.  With that location data we can then leverage Foursquares API to return important information about the surrounding venues.  Potentially leading to insights to help predict areas that would provide a suitable location for a new Comic's and Games business.
+
+#### 2.3 Data Source Caveats
+
+Being that this project is a smaller version of what would encompass a larger initiative.  This project will be focusing on data based on the following search criteria: "Comic's and Games".
+
+It is to be noted that additional search criteria’s would need to be included for future iterations.  Which will need to include a deeper filtering analysis since words like "Hobby" or "Comic Shop" could potentially be meant to mean the same thing as "Comic's and Games".  However, both "Hobby" and "Comic Shop" may not be in the same realm as what we are looking for.  As searches for "Hobby" leads to craft stores or remote-control car's\airplanes businesses.  
+
+For the purposes of this project the only search criteria that will be used via FourSquares API will be "Comic's and Games".  This will open a peek inside the potential of data science and what it can achieve. 
+
++Note: Leaving this section open as further development may come to light as this project progresses along.
 
 ### 10. References:
 
