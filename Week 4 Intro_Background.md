@@ -28,7 +28,7 @@ By leveraging the API from Foursquare a search for "Comic's and Games" will retu
 
 Being that this project is a smaller version of what would encompass a larger initiative.  This project will be focusing on data based on the following search criteria: "Comic's and Games".
 
-It is to be noted that additional search criteria’s would need to be included for future iterations.  Which will need to include a deeper filtering analysis since words like "Hobby" or "Comic Shop" could potentially be meant to mean the same thing as "Comic's and Games".  However, both "Hobby" and "Comic Shop" may not be in the same realm as what we are looking for.  As searches for "Hobby" leads to craft stores or remote-control car's\airplanes businesses.  
+It is to be noted that additional search criteria would need to be included for future iterations.  Which will need to include a deeper filtering analysis since words like "Hobby" or "Comic Shop" could potentially be meant to mean the same thing as "Comic's and Games".  However, both "Hobby" and "Comic Shop" may not be in the same realm as what we are looking for.  As searches for "Hobby" leads to craft stores or remote-control car's\airplanes businesses.  Then for "Comic Shop" there is a potential that the business is only geared for comic books and table top games will not be available at the store.  
 
 For the purposes of this project the only search criteria that will be used via FourSquares API will be "Comic's and Games".  This will open a peek inside the potential of data science and what it can achieve. 
 
